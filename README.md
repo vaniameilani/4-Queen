@@ -1,8 +1,8 @@
 # 4-Queen-CSP
 
-CSV (Constraint Satisfaction Problem) adalah suatu permasalahan yang tujuannya adalah mendapatkan suatu kombinasi variabel-variabel tertentu yang memenuhi aturan-aturan tertentu.
+CSP (Constraint Satisfaction Problem) adalah suatu permasalahan yang tujuannya adalah mendapatkan suatu kombinasi variabel-variabel tertentu yang memenuhi aturan-aturan tertentu.
 Untuk kali, permasalahan yang akan dibahas adalah 4-queen.
-Pembahasan programnya adalah sebagai berikut  :
+Pembahasan programnya dengan menggunakan metode CSP adalah sebagai berikut  :
 1. Pada fungsi utama , mendeklarasikan terlebih dahulu letak awal pada Queen yaitu `board[N][N]={0};`, kemudian memanggil pada fungsi `Solve`, dimana  
 untuk mencari kemungkinan kotak yang tepat dan aman. Jika setelah penelusurun dilakukan, maka diguanakan metode Backtracking.
 Fungsi tersebut yaitu : 
